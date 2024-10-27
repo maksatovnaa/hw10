@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8EFEF;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 50%;
+    
+}
+
+.login h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.login p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 70px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login .forgot-password {
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.login button[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0074d9;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.login .text {
+    font-size: 12px;
+    color: #aaaaaa;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.apps button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.apps .facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.apps .google {
+    background-color: #db4437;
+    color: #ffffff;
+}
+
+.signup {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+.login-image {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROsV2LlBUIVbc76lQbykI-MHIx7brthGg0eGb7hr19_EuXn_0v);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+
+}
+
+.login-image .butonn {
+    background-color: transparent;
+    font-size: 24px;
+    color: #ffffff;
+    border: none;
+    
+}
